@@ -1,0 +1,12 @@
+/* light.css */
+
+:root {
+  --navbar-bg-color: #ecca2f; /* Light mode background color */
+  --text-color: #1d1f2c;
+  --name-color: #ecca2f;
+  --bg-hm : white;
+  --hm-intro : #ecca2f;
+  --intro :white;
+  --intro-sc :#1d1f2c;
+  
+}
