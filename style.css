@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Poppins';
-  width: 100wh;
+  
 }
 .theme-switch {
   --toggle-size: 15px;
@@ -243,6 +243,10 @@ body {
 .nav-link{
   color: var(--text-color);
   display: flex;
+  transition: all ease-in-out 0.3s;
+}
+a.nav-link:hover{
+  transform: translateY(-3px);
 }
 
 .home-page{
@@ -410,6 +414,9 @@ display: none;
 .footer-home a{
   text-decoration: none;
 
+}
+.sosmed-icon{
+  fill: var(--intro-sc);
 }
 .find{
   overflow-y: hidden;
