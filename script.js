@@ -1,5 +1,5 @@
-const themeSwitch = document.querySelectorAll(".theme-switch__checkbox");
-const themeSwitchh = document.querySelectorAll(".theme-switch_responsive");
+const themeSwitch = document.querySelector(".theme-switch__checkbox");
+const themeSwitchh = document.querySelector(".theme-switch_responsive");
 const themeStyle = document.getElementById("theme-style");
 const currentTheme = localStorage.getItem("theme");
 const image = document.getElementById("image");
