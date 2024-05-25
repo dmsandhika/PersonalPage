@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css" />
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+      (function () {
+        emailjs.init("6EKVBT6TR9GNecwRJ"); // Ganti dengan userID dari EmailJS
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="container">
+      <h1>&bull; Contact ME &bull;<br><span>Dimas Andhika Firmansyah</span></h1>
+      <div class="underline"></div>
+      
+      <form id="contact_form" onsubmit="sendEmail(event)">
+        <div class="name">
+          <label for="name"></label>
+          <input
+            type="text"
+            placeholder="Name"
+            name="name"
+            id="name"
+            required
+          />
+        </div>
+        <div class="email">
+          <label for="email"></label>
+          <input
+            type="email"
+            placeholder="E-mail"
+            name="email"
+            id="email"
+            required
+          />
+        </div>
+        <div class="subject">
+          <label for="subject"></label>
+          <input
+            type="text"
+            placeholder="Subject"
+            name="subject"
+            id="subject"
+            required
+          />
+        </div>
+        <div class="message">
+          <label for="message"></label>
+          <textarea
+            name="message"
+            placeholder="Message"
+            id="message"
+            cols="30"
+            rows="5"
+            required
+          ></textarea>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Send Message" id="form_button" />
+        </div>
+        <div class="back">
+          <a href="index.html" class="form_button">Back</a>
+        </div>
+      </form>
+      <!-- // End form -->
+    </div>
+    <!-- // End #container -->
+
+    <script type="text/javascript">
+      function sendEmail(event) {
+        event.preventDefault();
+
+        const formData = new FormData(document.getElementById("contact_form"));
+
+        const templateParams = {
+          name: formData.get("name"),
+          email: formData.get("email"),
+          subject: formData.get("subject"),
+          message: formData.get("message"),
+        };
+
+        emailjs
+          .send("service_tas7c3p", "template_fapwlm4", templateParams)
+          .then(
+            (response) => {
+              console.log("SUCCESS!", response.status, response.text);
+              alert("Message sent successfully!");
+            },
+            (error) => {
+              console.log("FAILED...", error);
+              alert("Failed to send the message. Please try again.");
+            }
+          );
+      }
+    </script>
+  </body>
+</html>

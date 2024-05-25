@@ -575,6 +575,7 @@ p.par-about{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* Membagi container menjadi tiga kolom yang setara */
   gap: 5px;
+  overflow-x: auto;
 
   
  
