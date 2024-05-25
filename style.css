@@ -522,7 +522,9 @@ display: none;
   letter-spacing: 1.2px;
   text-transform: uppercase;
   overflow: hidden;
-  cursor: default;
+  cursor: pointer;
+  text-decoration: none;
+
 }
 
 .welcome:hover {
@@ -555,7 +557,9 @@ p.par-about{
   font-weight: 500;
 }
 .portfolio{
-  margin: 2em 100px;
+  padding-left: 100px;
+  overflow-y: hidden;
+  
   
   
 }
@@ -563,15 +567,25 @@ p.par-about{
   text-align: left;
   font-weight: bold;
   font-size : 50px;
+  margin-top: 100px;
+  overflow-y: hidden;
 }
 
 .card-port{
-  display: flex;
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Membagi container menjadi tiga kolom yang setara */
+  gap: 5px;
+
+  
  
 }
 .card{
-  margin :10px
+margin-bottom: 20px;
+  background-color: var(--card-port);
+  color: var(--intro-sc);
+}
+.btn-port{
+  background-color: #ecca2f;
 }
 
 
