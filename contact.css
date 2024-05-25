@@ -195,7 +195,32 @@ textarea {
   background: #474544;
   color: #f2f3eb;
 }
+.form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  float: right;
+  text-decoration: none;
+  margin-top: -60px;
+}
 
+.form_button:hover {
+  background: #474544;
+  color: #f2f3eb;
+}
 @media screen and (max-width: 768px) {
   #container {
     margin: 20px auto;
@@ -242,29 +267,4 @@ textarea {
   }
 }
 
-.form_button {
-  background: none;
-  border: solid 2px #474544;
-  color: #474544;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Helvetica", Arial, sans-serif;
-  font-size: 0.875em;
-  font-weight: bold;
-  outline: none;
-  padding: 20px 35px;
-  text-transform: uppercase;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-  float: right;
-  text-decoration: none;
-  margin-top: -60px;
-}
 
-.form_button:hover {
-  background: #474544;
-  color: #f2f3eb;
-}
