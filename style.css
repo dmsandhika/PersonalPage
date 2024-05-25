@@ -216,6 +216,11 @@ body {
 }
 .navbar {
   background-color: var(--navbar-bg-color);
+  justify-content: space-between;
+  padding: 10px;
+ 
+  width: 100%;
+  position: fixed;
 
  
 }
@@ -227,18 +232,6 @@ body {
   font-weight: bolder;
   font-size: 25px;
 }
-.navbar{
-  justify-content: space-between;
-  padding: 10px;
-  
-}
-.navbar .toggle_btn{
-  color: white;
-  font-size: 30px;
-  cursor: pointer;
-  display: none;
-  
-}
 
 .nav-link{
   color: var(--text-color);
@@ -247,6 +240,7 @@ body {
 }
 a.nav-link:hover{
   transform: translateY(-3px);
+  color: #fff;
 }
 
 .home-page{
@@ -264,7 +258,7 @@ a.nav-link:hover{
 }
 .halo{
   font-size: 45px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   margin-top: 3em;
   overflow-y: hidden;
 
@@ -465,9 +459,7 @@ display: none;
 .nav-link, .theme-switch{
   display: none;
 }
-.navbar .toggle_btn{
-  display: block;
-}
+
 .switch-responsive{
   display: block;
   scale: 0.7;
@@ -492,6 +484,94 @@ display: none;
 .icon {
   font-size: 20px;
 }
+.about-me{
+  text-align: center;
+  position: relative;
+  padding-top: 200px;
+  padding-bottom:70px;
+  color :var(--intro-sc);
+}
+.about-title{
+  font-size: 2.5em;
+  font-weight: bolder;
+  overflow-y: hidden;
+  position: flex;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.img-about{
+  margin-right: 20%;
+}
 
+
+.welcome {
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ecca2f;
+  min-width: 200px;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+  box-sizing: border-box;
+  padding: 16px 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  overflow: hidden;
+  cursor: default;
+}
+
+.welcome:hover {
+  opacity: .95;
+}
+
+.welcome .animation {
+  border-radius: 100%;
+  animation: ripple 0.6s linear infinite;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);
+  }
+
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
+  }
+}
+.paragraf-about{
+  padding: 0 100px;
+  margin-top: 2em;
+  
+}
+p.par-about{
+  margin-bottom: 2em;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 500;
+}
+.portfolio{
+  margin: 2em 100px;
+  
+  
+}
+.port-title{
+  text-align: left;
+  font-weight: bold;
+  font-size : 50px;
+}
+
+.card-port{
+  display: flex;
+  justify-content: flex-start;
+ 
+}
+.card{
+  margin :10px
+}
 
 
