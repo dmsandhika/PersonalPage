@@ -13,4 +13,14 @@ themeSwitch.addEventListener("change", function () {
   }
 });
 
+themeSwitchh.addEventListener("change", function () {
+  if (this.checked) {
+    themeStyle.href = "dark.css";
+    image.src = "img/myImg-dark.png";
+  } else {
+    themeStyle.href = "light.css";
+    image.src = "img/myImg-light.png";
+  }
+});
+
 // Mengatur transisi antar halaman

@@ -448,38 +448,7 @@ display: none;
   transform: translateY(-3px);
 }
 
-@media only screen and (max-width: 992px) {
- 
-#image{
-  display: none;
-}
-.karakter{
-  height: 90%;
-}
-.nav-link, .theme-switch{
-  display: none;
-}
 
-.switch-responsive{
-  display: block;
-  scale: 0.7;
-}
-
-.button-container {
-  display: flex;
- 
-}
-
-.button {
-  display: flex;
-  white-space: 30px;
-}
-}
-@media only screen and (max-width : 767px){
-  .karakter{
-   display: none;
-  }
-}
 
 .icon {
   font-size: 20px;
@@ -588,5 +557,53 @@ margin-bottom: 20px;
 .btn-port{
   background-color: #ecca2f;
 }
+
+@media only screen and (max-width: 992px) {
+ 
+  #image{
+    display: none;
+  }
+  .karakter{
+    height: 90%;
+  }
+  .nav-link, .theme-switch{
+    display: none;
+  }
+  
+  .switch-responsive{
+    display: block;
+    scale: 0.7;
+  }
+  
+  .button-container {
+    display: flex;
+   
+  }
+  
+  .button {
+    display: flex;
+    white-space: 30px;
+  }
+  .img-about{
+    display: none;
+  }
+  .paragraf-about{
+    padding: 0px 20px;
+    margin: 0 20px;
+    margin-left: 15px;
+  }
+  .portfolio{
+    padding-left: 50px;
+  }
+  .port-title{
+    text-align: center;
+  }
+  }
+  @media only screen and (max-width : 767px){
+    .karakter{
+     display: none;
+    }
+    
+  }
 
 
