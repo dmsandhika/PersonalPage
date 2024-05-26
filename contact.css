@@ -242,6 +242,7 @@ textarea {
   }
   .form_button {
     padding: 15px 25px;
+    margin-top: -50px;
   }
 }
 
@@ -249,7 +250,7 @@ textarea {
   h1 {
     font-size: 18px;
   }
-
+  
   .icon {
     height: 35px;
     width: 35px;

@@ -528,6 +528,7 @@ p.par-about{
 .portfolio{
   padding-left: 100px;
   overflow-y: hidden;
+  padding-bottom: 200px;
   
   
   
@@ -558,6 +559,57 @@ margin-bottom: 20px;
   background-color: #ecca2f;
 }
 
+.contact{
+  background-color:var(--ctc-bg);
+  position: absolute;
+  bottom: 0;
+  padding: 50px 0;
+  
+  
+}
+.contact-title{
+  overflow-y: hidden;
+}
+.link-contact{
+  text-decoration: none;
+  margin: 0 10px;
+  margin-bottom: 20px;
+}
+.contak:hover{
+  scale: 0.7;
+}
+.message{
+  height: 100px;
+  padding-top: 20px;
+  
+}
+.form_button {
+  background: none;
+  border: solid 2px var(--intro-sc);
+  color: var(--intro-sc);
+  cursor: pointer;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  
+}
+
+.form_button:hover {
+  background: var(--intro-sc);
+  color: var(--card-port );
+}
 @media only screen and (max-width: 992px) {
  
   #image{
@@ -565,6 +617,9 @@ margin-bottom: 20px;
   }
   .karakter{
     height: 90%;
+  }
+  .intro{
+    height: auto;
   }
   .nav-link, .theme-switch{
     display: none;

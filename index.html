@@ -9,6 +9,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -77,24 +79,10 @@
               >&nbsp;Portfolio</a
             >
             <a class="nav-link" href="contact.html">
-              <svg
-              class="icon"
-              stroke="currentColor"
-              fill="none"
-              stroke-width="2"
-              viewBox="0 0 24 24"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              height="1em"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="9" cy="21" r="1"></circle>
-              <circle cx="20" cy="21" r="1"></circle>
-              <path
-                d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
-              ></path>
-            </svg>
+              <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7H5a2 2 0 0 0-2 2v4m5-6h8M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m0 0h3a2 2 0 0 1 2 2v4m0 0v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6m18 0s-4 2-9 2-9-2-9-2m9-2h.01"/>
+              </svg>
+              
             &nbsp;Contact</a>
           </div>
         </div>
@@ -179,24 +167,10 @@
             </svg>
           </a>
           <a class="button" href="contact.html">
-            <svg
-              class="icon"
-              stroke="currentColor"
-              fill="none"
-              stroke-width="2"
-              viewBox="0 0 24 24"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              height="1em"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="9" cy="21" r="1"></circle>
-              <circle cx="20" cy="21" r="1"></circle>
-              <path
-                d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
-              ></path>
+            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7H5a2 2 0 0 0-2 2v4m5-6h8M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m0 0h3a2 2 0 0 1 2 2v4m0 0v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6m18 0s-4 2-9 2-9-2-9-2m9-2h.01"/>
             </svg>
+            
           </a>
           <label class="theme-switch switch-responsive">
             <input
@@ -1722,106 +1696,49 @@
                   
                 </div>
               </div>
+
+              <div class="contact" id="contact">
+                <div data-aos="flip-up"
+                class="contact-title"
+              data-aos-duration="1250"
+              data-aos-anchor-placement="top-bottom"
+              >
+              
+                  <h3 class="contact-title">
+                    CONNECT WITH ME
+                  </h3>
+                </div>
+                <div class="icon-contact">
+                  <a href="https://github.com/dmsandhika" target="_blank" class="link-contact">
+                    <img id="git" src="img/github-l.png" alt="" class="contak">
+                    
+                  </a>
+                  <a href="https://www.linkedin.com/in/dmsandhika/" target="_blank" class="link-contact">
+                    
+                    <img id="linkedin" src="img/linkedin-l.png" alt="" class="contak">
+                  </a>
+                  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dmsandhika87@gmail.com" target="_blank" class="link-contact" >
+                    
+                    <img id="email" src="img/mail-l.png" alt="" class="contak">
+                  </a>
+                  <a href="https://www.instagram.com/dmasandhika_/" target="_blank" class="link-contact" >
+                    
+                    <img id="ig" src="img/instagram-l.png" alt="" class="contak">
+                  </a>
+                  <a href="https://sptfy.com/dmasandhika_" target="_blank" class="link-contact" >
+                    
+                    <img id="spt" src="img/spotify-l.png" alt="" class="contak">
+                  </a>
+                 
+                </div>
+                <div class="message">
+                  <a href="contact.html" class="form_button">SEND A MESSAGE</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <!-- <div class="row footer-home home-page">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="wave-bottom"
-      viewBox="0 0 1440 200"
-    >
-      <path
-        class="wave1"
-        fill-opacity="1"
-        d="M0,32L48,58.7C96,85,192,139,288,144C384,149,480,107,576,74.7C672,43,768,21,864,32C960,43,1056,85,1152,90.7C1248,96,1344,64,1392,48L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
-      ></path>
-    </svg>
-    <div class="col-md-12" id="footer">
-      <h3
-        class="find"
-        data-aos="zoom-in"
-        data-aos-duration="1250"
-        data-aos-anchor-placement="top-bottom"
-      >
-        FIND ME ON
-      </h3>
-      <p
-        data-aos="zoom-in"
-        data-aos-duration="1250"
-        data-aos-anchor-placement="top-bottom"
-        data-aos-delay="200"
-      >
-        Feel free to connect with me
-      </p>
-      <a
-        href="https://github.com/dmsandhika"
-        target="_blank"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-        data-aos-anchor-placement="top-bottom"
-        data-aos-delay="300"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          x="0px"
-          y="0px"
-          width="50"
-          height="50"
-          viewBox="0 0 50 50"
-          class="sosmed-icon"
-        >
-          <path
-            d="M17.791,46.836C18.502,46.53,19,45.823,19,45v-5.4c0-0.197,0.016-0.402,0.041-0.61C19.027,38.994,19.014,38.997,19,39 c0,0-3,0-3.6,0c-1.5,0-2.8-0.6-3.4-1.8c-0.7-1.3-1-3.5-2.8-4.7C8.9,32.3,9.1,32,9.7,32c0.6,0.1,1.9,0.9,2.7,2c0.9,1.1,1.8,2,3.4,2 c2.487,0,3.82-0.125,4.622-0.555C21.356,34.056,22.649,33,24,33v-0.025c-5.668-0.182-9.289-2.066-10.975-4.975 c-3.665,0.042-6.856,0.405-8.677,0.707c-0.058-0.327-0.108-0.656-0.151-0.987c1.797-0.296,4.843-0.647,8.345-0.714 c-0.112-0.276-0.209-0.559-0.291-0.849c-3.511-0.178-6.541-0.039-8.187,0.097c-0.02-0.332-0.047-0.663-0.051-0.999 c1.649-0.135,4.597-0.27,8.018-0.111c-0.079-0.5-0.13-1.011-0.13-1.543c0-1.7,0.6-3.5,1.7-5c-0.5-1.7-1.2-5.3,0.2-6.6 c2.7,0,4.6,1.3,5.5,2.1C21,13.4,22.9,13,25,13s4,0.4,5.6,1.1c0.9-0.8,2.8-2.1,5.5-2.1c1.5,1.4,0.7,5,0.2,6.6c1.1,1.5,1.7,3.2,1.6,5 c0,0.484-0.045,0.951-0.11,1.409c3.499-0.172,6.527-0.034,8.204,0.102c-0.002,0.337-0.033,0.666-0.051,0.999 c-1.671-0.138-4.775-0.28-8.359-0.089c-0.089,0.336-0.197,0.663-0.325,0.98c3.546,0.046,6.665,0.389,8.548,0.689 c-0.043,0.332-0.093,0.661-0.151,0.987c-1.912-0.306-5.171-0.664-8.879-0.682C35.112,30.873,31.557,32.75,26,32.969V33 c2.6,0,5,3.9,5,6.6V45c0,0.823,0.498,1.53,1.209,1.836C41.37,43.804,48,35.164,48,25C48,12.318,37.683,2,25,2S2,12.318,2,25 C2,35.164,8.63,43.804,17.791,46.836z"
-          ></path>
-        </svg>
-      </a>
-      <a
-        href="https://www.linkedin.com/in/dmsandhika/"
-        target="_blank"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-        data-aos-anchor-placement="top-bottom"
-        data-aos-delay="500"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          x="0px"
-          y="0px"
-          width="60"
-          height="60"
-          viewBox="0 0 30 30"
-          class="sosmed-icon"
-        >
-          <path
-            d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z"
-          ></path>
-        </svg>
-        <a
-          href="https://www.instagram.com/dmasandhika_/"
-          target="_blank"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-delay="700"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            x="0px"
-            y="0px"
-            width="60"
-            height="60"
-            viewBox="0 0 30 30"
-            class="sosmed-icon"
-          >
-            <path
-              d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"
-            ></path>
-          </svg>
-        </a>
-      </a>
-    </div>
-  </div> -->
+
       </div>
     </div>
 
@@ -1835,6 +1752,7 @@
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
