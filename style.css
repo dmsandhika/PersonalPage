@@ -541,20 +541,42 @@ p.par-about{
   overflow-y: hidden;
 }
 
-.card-port{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* Membagi container menjadi tiga kolom yang setara */
-  gap: 5px;
-  overflow-x: auto;
-
-  
- 
+.card-port {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 15px; 
+  margin-bottom: 500px;
 }
-.card{
-margin-bottom: 20px;
+
+.card {
+  flex: 1 1 calc(25% - 15px); 
+  margin-bottom: 20px;
   background-color: var(--card-port);
   color: var(--intro-sc);
+  box-sizing: border-box; 
 }
+
+
+@media (max-width: 1200px) { 
+  .card {
+      flex: 1 1 calc(33.33% - 15px); 
+  }
+}
+
+@media (max-width: 768px) { 
+  .card {
+      flex: 1 1 calc(50% - 15px); 
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+      flex: 1 1 100%;
+  }
+}
+
+
+
 .btn-port{
   background-color: #ecca2f;
 }
@@ -570,6 +592,7 @@ margin-bottom: 20px;
 .contact-title{
   overflow-y: hidden;
 }
+
 .link-contact{
   text-decoration: none;
   margin: 0 10px;
@@ -664,4 +687,51 @@ margin-bottom: 20px;
     
   }
 
+  .rating {
+    direction: ltr; /* Menetapkan urutan dari kiri ke kanan */
+}
+
+.star {
+    font-size: 50px;
+    cursor: pointer;
+    color: gray;
+}
+
+.star:hover,
+.star.selected {
+    color: gold;
+}
+
+input, textarea {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.feedback-container {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.feedback-cards {
+  display: flex;
+  overflow-x: auto; /* Mengizinkan scroll horizontal */
+  gap: 10px; /* Spasi antar card */
+}
+
+.feedback-card {
+  background-color: var(--intro);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  min-width: 200px; /* Lebar minimum untuk card */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
