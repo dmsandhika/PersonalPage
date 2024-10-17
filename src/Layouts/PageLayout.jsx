@@ -6,7 +6,9 @@ const PageLayout = (props) => {
   return (
       <>
         <Navbar/>
+        <div className="bg-base-200">
         {children}
+        </div>
         <Footer/>
       </>
   )
