@@ -10,7 +10,7 @@ const Hero = () => {
           Hi! I'm Dimas Andhika, a dedicated Junior Web Developer, passionate about the world of development. Whether it's Front-End or Back-End, my mission is to drive innovation and create solutions that make a difference.
           </p>
         </div>
-      <div class="relative duration-300  hover:-rotate-0   lg:-rotate-12 rotate-0 group border border-sky-900 border-4  overflow-hidden rounded-2xl relative h-52 lg:w-1/2 w-3/4 bg-sky-800 p-5 flex flex-col items-start gap-4">
+      <div class="relative duration-300  hover:-rotate-0   lg:-rotate-12 rotate-0 group  border-sky-900 border-4  overflow-hidden rounded-2xl h-52 lg:w-1/2 w-3/4 bg-sky-800 p-5 flex flex-col items-start gap-4">
         <div class="text-gray-50">
           <span class="font-bold text-5xl">Jr</span>
           <p class="text-xs">Web Developer</p>

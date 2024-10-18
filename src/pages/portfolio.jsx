@@ -10,7 +10,7 @@ const PortfolioPage = () => {
         <TitlePage>
           Portfolio
         </TitlePage>
-        <TitleItem>
+        <TitleItem classs="text-center">
           Github Contributor Calendar
         </TitleItem>
         <div className="flex justify-center mx-12 mb-24">
