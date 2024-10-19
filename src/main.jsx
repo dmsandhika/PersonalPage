@@ -5,6 +5,7 @@ import './index.css'
 import HomePage from './pages/home.jsx'
 import AboutPage from './pages/about.jsx'
 import PortfolioPage from './pages/portfolio.jsx'
+import ContactPage from './pages/contact.jsx'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path : '/portfolio',
     element : <PortfolioPage/>
+  },
+  {
+    path:'/contact',
+    element : <ContactPage/>
   }
 ])
 createRoot(document.getElementById('root')).render(
