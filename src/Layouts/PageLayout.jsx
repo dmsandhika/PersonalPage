@@ -10,6 +10,7 @@ const PageLayout = (props) => {
         {children}
         </div>
         <Footer/>
+        
       </>
   )
 }

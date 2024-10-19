@@ -1,16 +1,22 @@
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import cv from '../../assets/cv/cv.pdf';
 const Hero = () => {
+  useEffect(()=> {
+    AOS.init();
+  },[])
   return (
     <>
     <div className="hero bg-base-200 min-h-screen">
       <div className="hero-content flex-col lg:flex-row ">
-        <div >
+        <div  data-aos="fade-right" data-aos-duration="1500">
           <h1 className="text-5xl font-bold">Welcome to My Personal Space</h1>
           <p className="py-6">
           Hi! I'm Dimas Andhika, a dedicated Junior Web Developer, passionate about the world of development. Whether it's Front-End or Back-End, my mission is to drive innovation and create solutions that make a difference.
           </p>
         </div>
-      <div class="relative duration-300  hover:-rotate-0   lg:-rotate-12 rotate-0 group  border-sky-900 border-4  overflow-hidden rounded-2xl h-52 lg:w-1/2 w-3/4 bg-sky-800 p-5 flex flex-col items-start gap-4">
+      <div  class="relative duration-300  hover:-rotate-0   lg:-rotate-12 rotate-0 group  border-sky-900 border-4  overflow-hidden rounded-2xl h-52 lg:w-1/2 w-3/4 bg-sky-800 p-5 flex flex-col items-start gap-4">
         <div class="text-gray-50">
           <span class="font-bold text-5xl">Jr</span>
           <p class="text-xs">Web Developer</p>
