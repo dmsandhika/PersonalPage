@@ -8,7 +8,7 @@ const Hero = () => {
   },[])
   return (
     <>
-    <div className="hero bg-base-200 min-h-screen">
+    <div className="hero bg-base-200 h-3/4 lg:min-h-screen">
       <div className="hero-content flex-col lg:flex-row ">
         <div  data-aos="fade-right" data-aos-duration="1500">
           <h1 className="text-4xl lg:text-5xl font-bold">Welcome to My Personal Space</h1>
