@@ -51,24 +51,24 @@ const AboutPage = () => {
     <>
     <PageLayout>
       <TitlePage>About Me</TitlePage>
-      <div className="flex flex-row justify-center mx-12">
-        <img src={images.profile} alt="dmsandhika" className="w-full rounded-full lg:block hidden " data-aos="fade-right" data-aos-duration="1500"/>
+      <div className="flex flex-row justify-center lg:mx-12 mx-6">
+        <img src={images.profile} alt="dmsandhika" className=" lg:w-72 lg:h-72 rounded-full lg:block hidden" data-aos="fade-right" data-aos-duration="1500"/>
         <div className="lg:mx-12 mx-4 text-justify" data-aos="fade-left" data-aos-duration="1500">
-        <p className="mb-5">
+        <p className="mb-5 lg:text-base text-sm">
         Hello! My name is Dimas Andhika Firmansyah, a web developer specializing in web-based application development and more than 1 year of experience in the technology industry. I am Undergraduated of Informatics and Computer Engineering Education at Semarang State University, where I developed a strong interest in programming and system design.
         </p>
-        <p className="mb-5"> 
+        <p className="mb-5 lg:text-base text-sm"> 
         With expertise in programming languages ​​such as PHP, JavaScript, and frameworks such as Laravel, I have experience in building effective and user-friendly digital solutions. In addition, I also have UI/UX design skills that enable me to create attractive and intuitive displays for users.
         </p>
-        <p className="mb-5">
+        <p className="mb-5 lg:text-base text-sm">
         Outside of work, I am actively involved in various technology communities and organizations that focus on developing digital skills.
         </p>
-        <p className="mb-5">
+        <p className="mb-5 lg:text-base text-sm">
         If you are interested in collaborating, feel free to contact me. I am always open to discussing new tech projects and exciting collaboration opportunities!
         </p>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1d232a" fill-opacity="1" d="M0,288L40,256C80,224,160,160,240,138.7C320,117,400,139,480,128C560,117,640,75,720,96C800,117,880,203,960,229.3C1040,256,1120,224,1200,192C1280,160,1360,128,1400,112L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300"><path fill="#1d232a" fill-opacity="1" d="M0,288L40,256C80,224,160,160,240,138.7C320,117,400,139,480,128C560,117,640,75,720,96C800,117,880,203,960,229.3C1040,256,1120,224,1200,192C1280,160,1360,128,1400,112L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
       <div className="bg-base-100">
         <TitleItem classs="ml-12 ">
           Work Experience

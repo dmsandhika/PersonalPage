@@ -11,7 +11,7 @@ const Hero = () => {
     <div className="hero bg-base-200 min-h-screen">
       <div className="hero-content flex-col lg:flex-row ">
         <div  data-aos="fade-right" data-aos-duration="1500">
-          <h1 className="text-5xl font-bold">Welcome to My Personal Space</h1>
+          <h1 className="text-4xl lg:text-5xl font-bold">Welcome to My Personal Space</h1>
           <p className="py-6">
           Hi! I'm Dimas Andhika, a dedicated Junior Web Developer, passionate about the world of development. Whether it's Front-End or Back-End, my mission is to drive innovation and create solutions that make a difference.
           </p>
