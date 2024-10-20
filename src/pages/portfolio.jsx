@@ -7,15 +7,9 @@ import images from "../assets/img/images";
 
 const Ports = [
   {
-    title : "Targetku",
-    desc : "Targetku is a web-based piggy bank app designed to display target recaps in tables or graphs, developed as a final project for a software engineering course.",
-    link : "https://github.com/dmsandhika/Celengan_Target.git",
-    image: images.targetku
-  },
-  {
     title : "OrgEnroll",
     desc : "OrgEnroll is a web-based system for campus organization registration, developed to streamline administrative processes as a final project for the MSIB program at NF Computer.",
-    link : "https://github.com/dmsandhika/OrgEnroll.git",
+    link : "https://orgenroll.dmsandhika.my.id/",
     image: images.orgenroll
   },
   {

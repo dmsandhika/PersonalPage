@@ -17,7 +17,7 @@ const Card = (props) => {
       <h2 className="card-title">{title}</h2>
       <p>{desc}</p>
       <div className="card-actions">
-        <a href={link} className="btn btn-primary" target="blank">Go To Repo/Website</a>
+        <a href={link} className="btn btn-primary" target="blank">Go To Website</a>
       </div>
     </div>
   </div>
