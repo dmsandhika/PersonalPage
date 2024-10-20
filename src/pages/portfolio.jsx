@@ -27,7 +27,7 @@ const Ports = [
   {
     title : "MyFutsal",
     desc : "MyFutsal is an online futsal booking website I developed as a fake project for my personal portfolio, showcasing my skills in web development.",
-    link : "https://github.com/dmsandhika/Booking-Futsal-Web.git",
+    link : "https://myfutsal.dmsandhika.my.id/",
     image: images.futsal
   }
 ]
