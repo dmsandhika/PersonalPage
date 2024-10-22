@@ -38,7 +38,7 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <div className="lg:hidden absolute top-16 left-0 w-full bg-base-100 shadow-lg">
-          <ul className="menu menu-compact">
+          <ul className="menu menu-compact w-full">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/portfolio">Portfolio</Link></li>

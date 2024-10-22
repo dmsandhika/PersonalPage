@@ -38,8 +38,13 @@ const PortfolioPage = () => {
         <div className="flex justify-center mx-12 mb-23">
           <GitHubCalendar username="dmsandhika" />
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250"><path fill="#1d232a" fill-opacity="1" d="M0,192L48,186.7C96,181,192,171,288,186.7C384,203,480,245,576,224C672,203,768,117,864,112C960,107,1056,181,1152,218.7C1248,256,1344,256,1392,256L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-        <div className="bg-base-100 py-12">
+        <div class="bg-base-200 dark:bg-base-900">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250" class="fill-base-100 dark:fill-[#1d232a]">
+          <path d="M0,192L48,186.7C96,181,192,171,288,186.7C384,203,480,245,576,224C672,203,768,117,864,112C960,107,1056,181,1152,218.7C1248,256,1344,256,1392,256L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
+      </div>
+
+  <div className="bg-base-100 py-12">
           <TitleItem classs="text-center">
             My Project
           </TitleItem>
