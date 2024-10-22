@@ -52,7 +52,7 @@ const AboutPage = () => {
     <PageLayout>
       <TitlePage>About Me</TitlePage>
       <div className="flex flex-row justify-center lg:mx-12 mx-6">
-        <img src={images.profile} alt="dmsandhika" className=" lg:w-72 lg:h-72 rounded-full lg:block hidden" data-aos="fade-right" data-aos-duration="1500"/>
+        <img src={images.profile} alt="dmsandhika" className=" lg:w-72 lg:h-72 rounded-full lg:block hidden filter grayscale hover:grayscale-0 " data-aos="fade-right" data-aos-duration="1500"/>
         <div className="lg:mx-12 mx-4 text-justify" data-aos="fade-left" data-aos-duration="1500">
         <p className="mb-5 lg:text-base text-sm">
         Hello! My name is Dimas Andhika Firmansyah, a web developer specializing in web-based application development and more than 1 year of experience in the technology industry. I am Undergraduated of Informatics and Computer Engineering Education at Semarang State University, where I developed a strong interest in programming and system design.
