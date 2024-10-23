@@ -17,7 +17,7 @@ const HomePage = () => {
     <PageLayout>
     <div className="home-page">
       <Hero></Hero>
-      <div className="bg-base-100"  >
+      <div className="bg-base-100 pb-10"  >
      
       <div class="bg-base-100 dark:bg-base-900">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220" class="fill-base-200 dark:fill-[#191E24]">
