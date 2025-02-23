@@ -9,15 +9,21 @@ import 'aos/dist/aos.css';
 
 const Works = [
   {
+    name : "Megacodify Digital Nusantara",
+    position : "Web Developer",
+    time : "July 2024 - Present",
+    img : images.megacodify
+  },
+  {
     name : "Techarea Indonesia",
     position : "Web Developer",
-    time : "November 2024 - Present",
+    time : "November 2024 - February 2025",
     img : images.techarea
   },
   {
     name : "SchoolTech Indonesia",
     position : "IT Back End Developer",
-    time : "August 2024 - Present",
+    time : "August 2024 - December 2024",
     img : images.schooltech
   },
 ]

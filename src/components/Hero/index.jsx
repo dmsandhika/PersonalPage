@@ -2,6 +2,8 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import cv from '../../assets/cv/cv.pdf';
+import { BlurText } from '../Text/BlurText';
+import { SplitText } from '../Text/SplitText';
 const Hero = () => {
   useEffect(()=> {
     AOS.init();
@@ -10,11 +12,9 @@ const Hero = () => {
     <>
     <div className="hero bg-base-200 h-3/4 lg:min-h-screen">
       <div className="hero-content flex-col lg:flex-row ">
-        <div  data-aos="fade-right" data-aos-duration="1500">
-          <h1 className="text-4xl lg:text-5xl font-bold">Welcome to My Personal Space</h1>
-          <p className="py-6">
-          Hi! I'm Dimas Andhika, a dedicated Junior Web Developer, passionate about the world of development. Whether it's Front-End or Back-End, my mission is to drive innovation and create solutions that make a difference.
-          </p>
+        <div>
+        <SplitText text="Welcome to My Personal Space" className="text-4xl lg:text-5xl font-bold" delay={100} />
+        <BlurText text="Hi! I'm Dimas Andhika, a dedicated Junior Web Developer, passionate about the world of development. Whether it's Front-End or Back-End, my mission is to drive innovation and create solutions that make a difference." className="py-6" delay={20} />
         </div>
       <div  class="relative duration-300  hover:-rotate-0   lg:-rotate-12 rotate-0 group  border-sky-900 border-4  overflow-hidden rounded-2xl h-52 lg:w-1/2 w-3/4 bg-sky-800 p-5 flex flex-col items-start gap-4">
         <div class="text-gray-50">

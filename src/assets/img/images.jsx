@@ -8,7 +8,8 @@ import unnes from "./unnes.webp";
 import targetku from "./targetku.jpeg";
 import orgenroll from "./orgenroll.jpeg";
 import jatijajar from "./jatijajar.jpeg";
-import futsal from "./futsal.png"
+import futsal from "./futsal.png";
+import megacodify from "./megacodify.png";
 
 const images = {
   profile: profileFoto,
@@ -21,7 +22,8 @@ const images = {
   targetku: targetku,
   orgenroll: orgenroll,
   jatijajar: jatijajar,
-  futsal: futsal
+  futsal: futsal,
+  megacodify: megacodify
 };
 
 export default images;

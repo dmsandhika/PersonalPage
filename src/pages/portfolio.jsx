@@ -15,7 +15,7 @@ const Ports = [
   {
     title: "Website Desa Jatijajar",
     desc : "The Jatijajar Village Website, part of the 'Digitalisasi Administrasi Desa Berbasis Web' program, enhances village administration by offering easy access to information, online forms, and updates, promoting transparency and engagement",
-    link : "https://desajatijajar.site/",
+    link : "https://jatijajar.dmsandhika.my.id/",
     image: images.jatijajar
   },
   {
